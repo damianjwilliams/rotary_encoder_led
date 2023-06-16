@@ -9,9 +9,10 @@ The second part of the video shows how the potentiometer is replaced by a rotary
 
 The video does not clearly show how the intensity of the LED changes, so a light sensor was used and the data plotted in real time using the Arduino. 
 
-All code is available on my GitHub page.
+Check the code to make sure that the correct ESP32 pins are used. The numbering/positions changes dependent on the dev board.
 
 ## Wiring diagram
-This diagram shows the wiring of the MOSFET, the LM7805 and and LED and potentiometer. For the rotary encoder, the potentimeter was replaced with a encoder and an OLED display added (using a separate PCB/ESP32). Wiring not shown. 
+This diagram shows the wiring of the MOSFET, the LM7805 and and LED and potentiometer. 
 ![led_potentiator](https://github.com/damianjwilliams/rotary_encoder_led/assets/18335331/944aa6c2-b80e-4f73-ac20-4f8af39d71f0)
+For the rotary encoder, the potentimeter was replaced with a encoder and an OLED display added (using a separate PCB/ESP32). Wiring not shown. 
 
